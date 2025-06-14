@@ -35,7 +35,7 @@ selected_item = st.radio(
 
 st.divider()
 
-if selected_item == "株主投資":
+if selected_item == "株式投資":
     input_message = st.text_input(label="株式投資に関する質問を入力してください")
 
 else:
